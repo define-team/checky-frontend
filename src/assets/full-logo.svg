@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img">
+    <rect width="128" height="128" rx="20" fill="#0F172A"/>
+
+    <g transform="translate(22,18)">
+        <defs>
+            <linearGradient id="docGrad" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.98"/>
+                <stop offset="1" stop-color="#F3F4F6" stop-opacity="0.98"/>
+            </linearGradient>
+        </defs>
+
+        <path d="M0 0h56l28 28v64a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6V0z" fill="url(#docGrad)"/>
+        <path d="M56 0v28h28L56 0z" fill="#E6EEF8" opacity="0.95"/>
+
+        <text x="10" y="48" font-family="Inter, Arial" font-size="12" font-weight="700" fill="#0F172A">ГОСТ</text>
+        <rect x="10" y="58" width="44" height="4" rx="2" fill="#E5E7EB"/>
+        <rect x="10" y="66" width="32" height="4" rx="2" fill="#E5E7EB"/>
+    </g>
+
+    <g transform="translate(68,64)">
+        <circle cx="22" cy="22" r="22" fill="#10B981"/>
+        <path d="M11 22 L19 30 L33 16"
+              fill="none"
+              stroke="#fff"
+              stroke-width="4.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"/>
+    </g>
+</svg>
